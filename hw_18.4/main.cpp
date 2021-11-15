@@ -1,5 +1,6 @@
 #include <iostream>
 void evens_num(long long n, int &ans){
+    if(n==0){ans=1;}
     if(n<1) {return;}
 
     if(n%2==0){
