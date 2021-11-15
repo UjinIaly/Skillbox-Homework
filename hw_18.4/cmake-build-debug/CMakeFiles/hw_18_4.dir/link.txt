@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hw_18_4.dir/main.cpp.o -o hw_18_4 
