@@ -1,3 +1,0 @@
-/home/ujin_ialy/Skillbox-Homework/hw_18.3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ujin_ialy/Skillbox-Homework/hw_18.3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ujin_ialy/Skillbox-Homework/hw_18.3/cmake-build-debug/CMakeFiles/hw_18_3.dir
