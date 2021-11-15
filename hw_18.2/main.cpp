@@ -1,26 +1,20 @@
 #include <iostream>
 
-void jump(size_t max_s,size_t all_steps,int nj,size_t l,int *my_mass,int& num_jmp)
-{
-    for(int i=1; i<=max_s && l+i<=all_steps; ++i)
-    {
-        my_mass[nj]=i;
-        if(l+i==all_steps)
-        {
-            num_jmp++;
-            return;
-        }
-        jump(max_s,all_steps,nj+1,l+i,my_mass,num_jmp);
+int jump (int n, int k=3){
+    if(n == 0) { return 1; }
+
+    int count=0;
+    for(int i=1;i<=std::min(n,k);++i){
+        count+= jump(n-i);
     }
+    return count;
+
 }
 int main()
 {
-    size_t all_steps;
+    int all_steps;
     std::cout<<"Input ladder length"<<std::endl;
     std::cin>>all_steps;
-    int *my_mass=new int[all_steps];
-    int num_jmp=0;
-    jump(3,all_steps,0,0,my_mass,num_jmp);
-    std::cout<<num_jmp<<std::endl;
-    delete[] my_mass;
+    std::cout<<jump(all_steps)<<std::endl;
+
     }
