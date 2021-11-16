@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hw_19_3.dir/main.cpp.o -o hw_19_3 
