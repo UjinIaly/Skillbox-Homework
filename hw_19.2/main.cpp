@@ -1,18 +1,15 @@
 #include <iostream>
 #include <fstream>
 int main() {
-    std::string way;
+    char way[20];
     std::ifstream file;
-
-    std::cout<<"input way to file";
+    char buffer[200];
+    std::cout<<"input way to file"<<std::endl;
     std::cin>>way;
-
-    file.open(way);
-
+    file.open(way,std::ios::binary);
     while(!file.eof()){
-        std::getline(file,way);
-        std::cout<<way;
-        std::cout<<std::endl;
+      file.read(buffer,sizeof(buffer));
+      std::cout<<buffer;
     }
 
     file.close();

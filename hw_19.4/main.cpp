@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 int main() {
-    char flat[3] ;
+    char flat[4] ;
     std::string way;
     std::ifstream file;
 
@@ -9,10 +9,9 @@ int main() {
     std::cin>>way;
 
     file.open(way,std::ios::binary);
-    file.seekg(1);
-    file.read(flat, sizeof(char[3]));
+    file.read(flat, sizeof(char[4]));
 
-    if(*flat=='P'&&*(flat+1)=='N'&&*(flat+2)=='G'){std::cout<<"yes, this is PNG file"<<std::endl;}
+    if(*flat==-119&&*(flat+1)=='P'&&*(flat+2)=='N'&&*(flat+3)=='G'){std::cout<<"yes, this is PNG file"<<std::endl;}
     else{std::cout<<"NO, this isn't a PNG file"<<std::endl;}
     file.close();
 }
