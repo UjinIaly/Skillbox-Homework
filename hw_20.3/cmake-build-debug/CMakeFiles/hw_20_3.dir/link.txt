@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hw_20_3.dir/main.cpp.o -o hw_20_3 
