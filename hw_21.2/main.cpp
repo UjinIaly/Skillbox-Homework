@@ -5,17 +5,16 @@ struct area{
         BARN=1,
         BATHHOUSE=2,
         GARAGE=4,
-        HOUSE_BAKE=8,
-        BATH_BAKE=16
+        HOUSE_PIPE=8,
+        BATH_PIPE=16
     }extensions;
     struct extensions_square{
         int barn_s = 0;
         int bathhouse_s = 0;
         int garage_s = 0;
-        int house_bake_s = 0;
-        int bath_bake_s = 0;
 
-    };
+    }extensions_square;
+
     struct house{
         struct floor{
             int living_s[3]={0,0,0};
@@ -30,11 +29,12 @@ struct area{
 enum room_type{
         living=1,
         children=2,
-        kitche4,
+        kitchen=4,
         bedroom=8,
         bathroom=16
     };
 int main() {
+    //start
     std::cout<<"how many houses will there be?"<<std::endl;
     size_t qua;
     std::cin>>qua;
@@ -47,33 +47,54 @@ int main() {
     //building[0].extensions;
 
     for(int i=0;i<qua;++i){
-        std::cout<<"buildings around: "<<std::endl<<"barn? [y/n]";
-        std::cin>>command;
-        if(command == "y"){ext[i]|=area::BARN;}
-        else if(command != "n"){std::cout<<"wrong input"<<std::endl; ext[i]&=area::BARN;--i;continue;}
+        //buildings around the house
+        std::cout<<"Buildings around:"<<std::endl<<"barn? [y/n]";
+        do{std::cin>>command;std::cout<<"wrong input"<<std::endl;}
+        while(command!="y"||command!="n");
+        if(command == "y"){
+            ext[i]|=area::BARN;
+            std::cout<<"square?"<<std::endl;
+            std::cin>>building[i].extensions_square.barn_s;
+        }
+
+
 
         std::cout<<"bathhouse? [y/n]";
-        std::cin>>command;
-        if(command == "y"){ext[i]|=area::BATHHOUSE;}
-        else if(command != "n"){std::cout<<"wrong input"<<std::endl; ext[i]&=area::BATHHOUSE;--i;continue;}
-
-        std::cout<<"garage? [y/n]";
-        std::cin>>command;
-        if(command == "y"){ext[i]|=area::GARAGE;}
-        else if(command != "n"){std::cout<<"wrong input"<<std::endl; ext[i]&=area::GARAGE;--i;continue;}
+        do{std::cin>>command;std::cout<<"wrong input"<<std::endl;}
+        while(command!="y"||command!="n");
+        if(command == "y"){
+            ext[i]|=area::BATHHOUSE;
+            std::cout<<"square?"<<std::endl;
+            std::cin>>building[i].extensions_square.bathhouse_s;
+        }
 
         std::cout<<"garage? [y/n]";
         do{std::cin>>command;std::cout<<"wrong input"<<std::endl;}
         while(command!="y"||command!="n");
-        if(command == "y"){ext[i]|=area::GARAGE;}
+        if(command == "y"){
+            ext[i]|=area::GARAGE;
+            std::cout<<"square?"<<std::endl;
+            std::cin>>building[i].extensions_square.garage_s;
+        }
 
+        std::cout<<"house pipe? [y/n]";
+        do{std::cin>>command;std::cout<<"wrong input"<<std::endl;}
+        while(command!="y"||command!="n");
+        if(command == "y"){ext[i]|=area::HOUSE_PIPE;}
 
+        std::cout<<"bath_pipe? [y/n]";
+        do{std::cin>>command;std::cout<<"wrong input"<<std::endl;}
+        while(command!="y"||command!="n");
+        if(command == "y"){ext[i]|=area::BATH_PIPE;}
 
-
-
-
-
-
+        //house
+        //count of floors
+        size_t floors=0;
+        std::cout<<"how many floors wil be in the house?"<<std::endl;
+        std::cin>>floors;
+        for(size_t j=0;j<floors;++j){
+            
+        }
 
 
 
