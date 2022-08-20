@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/clion/204/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/iwaly/Skillbox-Homework/hw_21_2 -B/home/iwaly/Skillbox-Homework/hw_21_2/cmake-build-debug
+  command = /snap/clion/204/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/iwaly/Skillbox-Homework/hw_21.3 -B/home/iwaly/Skillbox-Homework/hw_21.3/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
