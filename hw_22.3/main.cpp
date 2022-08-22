@@ -2,45 +2,39 @@
 #include <map>
 #include <string>
 
-int main() {
-    std::map<char,char> word1;
-    std::map<char,char> word2;
+bool comp(std::string word1, std::string word2){
+    if(word1.length()!=word2.length()){
+        return false;
+    }
+    else {
+        std::map<char,int> w1;
+        std::map<char,int> w2;
+        for(size_t i=0;i<word1.length();++i){
+            w1.insert(std::pair<char,int>(word1[i],i));
+            w2.insert(std::pair<char,int>(word2[i],i));
+        }
+        std::cout<<std::endl;
+        std::map<char,int>::iterator it2 = w2.begin();
+        for(std::map<char,int>::iterator it1 = w1.begin();it1!=w1.end();++it1){
+            if(it1->first!=it2->first){return false;}
+            ++it2;
+        }
+    }
+    return true;
+}
 
-    char first[100];
-    char second[100];
-    bool status= true;
+int main() {
+
+    std::string word1;
+    std::string word2;
 
     std::cout<<"input words"<<std::endl;
-    std::cin>>first>>second;
-
-
-    for(size_t i=0;first[i]>'a'&&first[i]<'z'||first[i]>'A'&&first[i]<'Z';++i){
-        word1.insert(std::make_pair(first[i],first[i]));
-        word2.insert(std::make_pair(second[i],second[i]));
+    std::cin>>word1>>word2;
+    if(comp(word1,word2)){
+        std::cout<<"YES"<<std::endl;
     }
-
-        std::map<char,char>::iterator it1 = word1.begin();
-        for(std::map<char,char>::iterator it2 = word2.begin();it2!=word2.end();++it2){
-            if(it1->first!=it2->first){
-                status= false;
-                break;
-            }
-            ++it1;
-
-        }
-        if(!status){
-            std::cout<<"NO"<<std::endl;
-        }
-        else{
-            std::cout<<"YES"<<std::endl;
-        }
-
-
-
-
-
-
-
-
+    else{
+        std::cout<<"NO"<<std::endl;
+    }
 
 }

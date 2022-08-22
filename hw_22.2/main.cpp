@@ -3,24 +3,27 @@
 #include <string>
 
 int main() {
-    std::map<std::string,std::string> directory;
+    std::map<std::string,int> queue;
     std::string command;
+    int i=0;
     while(command!="q"){
         std::cout<<"enter command"<<std::endl;
         std::cin>>command;
         if(command=="next"){
-              std::map<std::string,std::string>::iterator ite = directory.begin();
+              std::map<std::string,int>::iterator ite = queue.begin();
               std::cout<<"<-"<<ite->second<<std::endl;
-              directory.erase(ite);
+              queue.erase(ite);
+              --i;
         }
         else if(command=="list"){
-            for(std::map<std::string,std::string>::iterator it = directory.begin();it!=directory.end();++it){
+            for(std::map<std::string,int>::iterator it = queue.begin();it!=queue.end();++it){
                 std::cout<<"->"<<it->first<<std::endl;
             }
         }
         else {
-            directory.insert(std::make_pair(command,command));
+            queue.insert(std::make_pair(command,i));
             std::cout<<"->"<<command<<std::endl;
+            ++i;
         }
     }
 }
