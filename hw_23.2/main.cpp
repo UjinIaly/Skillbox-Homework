@@ -8,10 +8,7 @@
 #define TEXT "autumn"
 #elif defined WINTER
 #define TEXT "winter"
-#else
-#define TEXT "error"
-#endif
 int main()
 {
-    std::cout << TEXT;
+    std::cout<<TEXT<<std::endl;
 }
