@@ -10,18 +10,28 @@ private:
     std::vector<std::tm> born_date;
     std::vector<int> duration;
 public:
-    void play(std::string name,std::tm date,int dur){
-        if(!in_current) {
-            song_name.push_back(name);
-            born_date.push_back(date);
-            duration.push_back(dur);
-            std::cout << "playing" << std::endl;
-            std::cout << name << ". date of creation: " << std::asctime(&date) << " duration: " << dur << std::endl;
-            in_current = true;
-        }
-        else{
+    void play(){
+        if(in_current){
             std::cout<<"error"<<std::endl;
         }
+        else {
+            std::string temp_name;
+            std::tm temp_date;
+            int temp_dur;
+            std::cout<<"enter the name of song"<<std::endl;
+            std::cin>>temp_name;
+            std::cout<<"enter the date of creation"<<std::endl;
+            std::cin >> std::get_time(&temp_date, "%Y/%m/%d");
+            std::cout<<"enter duration"<<std::endl;
+            std::cin>>temp_dur;
+            song_name.push_back(temp_name);
+            born_date.push_back(temp_date);
+            duration.push_back(temp_dur);
+            std::cout << "playing" << std::endl;
+            std::cout << "'" << temp_name << "' date of creation: " << std::asctime(&temp_date) << " duration: " << temp_dur<< std::endl;
+            in_current = true;
+        }
+
     }
     void pause(){
         if(in_current){
@@ -34,15 +44,18 @@ public:
 
     }
     void next() {
-        int i = std::rand() % (duration.size() + 1);
+        int i = std::rand() % (duration.size());
         std::cout << "playing" << std::endl;
-        std::cout << song_name[i]<< ". date of creation: " << std::asctime(&born_date[i]) << " duration: " << duration[i] << std::endl;
+        std::cout << "'"<<song_name[i]<< "' date of creation: " << std::asctime(&born_date[i]) << " duration: " << duration[i] << std::endl;
         in_current=true;
     }
     void stop(){
-        if(!in_current){
+        if(in_current){
             std::cout<<"stop"<<std::endl;
             in_current = false;
+        }
+        else{
+            std::cout<<"error"<<std::endl;
         }
     }
 };
@@ -52,23 +65,16 @@ int main() {
 
     std::string command;
     PLAYER player ;
-    std::string temp_name;
-    std::time_t t=std::time(nullptr);
-    std::tm temp_time = *std::localtime(&t);
-    int temp_dur;
+    srand(time(nullptr));
+
+
 
 
     while(command!= "exit"){
         std::cout<<"enter command"<<std::endl;
         std::cin>>command;
         if(command == "play"){
-            std::cout<<"enter the name of song"<<std::endl;
-            std::cin>>temp_name;
-            std::cout<<"enter the date of creation"<<std::endl;
-            std::cin >> std::get_time(&temp_time, "%Y/%m/%d");
-            std::cout<<"enter duration"<<std::endl;
-            std::cin>>temp_dur;
-            player.play(temp_name,temp_time,temp_dur);
+            player.play();
         }
         else if(command == "pause"){
             player.pause();
