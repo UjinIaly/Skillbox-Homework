@@ -27,17 +27,6 @@ public:
             }
         }
     }
-    void check(){
-        for (size_t i = 0; i < 5; ++i) {
-            for (size_t j = 0; j < std::rand() % 3 + 3; ++j) {
-                for (size_t k = 0; k < std::rand() % 2 + 2; ++k) {
-                    std::cout<<homes[i][j][k]<<" ";
-                }
-                std::cout<<std::endl;
-            }
-            std::cout<<std::endl;std::cout<<std::endl;
-        }
-    }
     void get_branch(std::string name){
         for(size_t i = 0;i<5;++i){
             for(size_t j = 0;j<5;++j){
@@ -56,14 +45,12 @@ public:
         std::cout<<elf_name<<"'s neighbours: "<<std::endl;
         for(size_t i=0;i<5;++i){
             for(size_t j=0;j<3;++j){
-                std::cout<<homes[i][neighbour_branch][j]<<" ";
+                if(homes[i][neighbour_branch][j]!="None") {
+                    std::cout << homes[i][neighbour_branch][j] << " ";
+                }
             }
         }
     }
-
-
-
-
 };
 
 int main() {
@@ -75,5 +62,4 @@ int main() {
     std::cin>>elf;
     forest.get_branch(elf);
     forest.neighbours();
-    forest.check();
 }
