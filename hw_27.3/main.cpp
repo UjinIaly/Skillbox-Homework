@@ -82,8 +82,8 @@ int main() {
         }
         for(size_t j = 0;j<tasks_count;++j) {
             if (company._teams[manager_number].team_check()) {
-                std::cout<<"manager of the "<<manager_number+2<<" group - "<<company._teams[manager_number+2].manager_name<<std::endl;
                 ++manager_number;
+                std::cout<<"manager of the "<<manager_number+1<<" group - "<<company._teams[manager_number].manager_name<<std::endl;
                 last_free_worker = 0;
             }
             else{
