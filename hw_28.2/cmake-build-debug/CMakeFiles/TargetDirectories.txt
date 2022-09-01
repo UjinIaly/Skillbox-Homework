@@ -1,0 +1,3 @@
+/home/iwaly/Skillbox-Homework/hw_28.2/cmake-build-debug/CMakeFiles/hw_28_2.dir
+/home/iwaly/Skillbox-Homework/hw_28.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/iwaly/Skillbox-Homework/hw_28.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
