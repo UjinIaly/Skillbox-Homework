@@ -5,6 +5,7 @@ class Talent{
 public:
     std::vector<std::string> talents;
     virtual void add_talent() = 0;
+    virtual void show_talent()=0;
 
 };
 
@@ -18,7 +19,7 @@ public:
 
     void show_talent(){
         for(size_t i=0;i<talents.size();++i){
-            std::cout<<"it can '"<<talents[i]<<"'"<<std::endl;
+            std::cout<<Dog_name<<" can '"<<talents[i]<<"'"<<std::endl;
         }
     }
 
