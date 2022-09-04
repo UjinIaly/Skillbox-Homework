@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hw_29_2.dir/main.cpp.o -o hw_29_2 

@@ -36,7 +36,8 @@ public:
         return Box;
     }
     virtual std::string type(){
-        std::cout<<"Circle"<<std::endl;
+        std::string circle = "Circle";
+        return circle;
     }
 
 };
@@ -55,7 +56,8 @@ public:
         return Box;
     }
     std::string type(){
-        std::cout<<"Rectangle"<<std::endl;
+        std::string rectangle = "Rectangle";
+        return rectangle;
     }
 
 };
@@ -77,7 +79,8 @@ public:
         return Box;
     }
     std::string type(){
-        std::cout<<"Triangle"<<std::endl;
+        std::string triangle = "Triangle";
+        return triangle;
     }
 
 };
@@ -86,6 +89,12 @@ public:
 int main() {
     Shape* c = new Circle(10);
     c->printParams(c);
+    std::cout<<std::endl;
+    Shape* r = new Rectangle(15,14);
+    r->printParams(r);
+    std::cout<<std::endl;
+    Shape* t = new Triangle(8,6,4);
+    t->printParams(t);
 
 
 
