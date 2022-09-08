@@ -1,4 +1,14 @@
-/snap/clion/204/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/204/bin/ninja/linux/ninja -G Ninja -S /home/iwaly/Skillbox-Homework/hw_30.1 -B /home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\iwaly\Documents\Skillbox-Homework\hw_30.1 -B C:\Users\iwaly\Documents\Skillbox-Homework\hw_30.1\cmake-build-debug
+CMake Error: The current CMakeCache.txt directory C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeCache.txt is different than the directory /home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1076 (message):
+  CMake step for cpr failed: 1
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1217:EVAL:2 (__FetchContent_directPopulate)
+  C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1217 (cmake_language)
+  C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1260 (FetchContent_Populate)
+  CMakeLists.txt:12 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".

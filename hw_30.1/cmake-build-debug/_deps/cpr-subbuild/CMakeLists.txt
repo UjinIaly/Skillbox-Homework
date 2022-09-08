@@ -12,18 +12,18 @@ project(cpr-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[/usr/bin/git]==])
-set(GIT_VERSION_STRING [==[2.34.1]==])
+set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
+set(GIT_VERSION_STRING [==[2.37.3.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[/usr/bin/git;2.34.1]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.37.3.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(cpr-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "http://github.com/libcpr/cpr.git" "GIT_TAG" "871ed52d350214a034f6ef8a3b8f51c5ce1bd400"
-                    SOURCE_DIR          "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-src"
-                    BINARY_DIR          "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "GIT_TAG" "871ed52d350214a034f6ef8a3b8f51c5ce1bd400"
+                    SOURCE_DIR          "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-src"
+                    BINARY_DIR          "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

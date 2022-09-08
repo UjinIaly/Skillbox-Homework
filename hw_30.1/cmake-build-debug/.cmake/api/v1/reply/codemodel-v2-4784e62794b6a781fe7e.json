@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.23"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hw_30_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw_30_1-Debug-bc0ee302c08a4e27d6df.json",
+					"jsonFile" : "target-hw_30_1-Debug-ffcfb5d24b041df8afb5.json",
 					"name" : "hw_30_1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug",
-		"source" : "/home/iwaly/Skillbox-Homework/hw_30.1"
+		"build" : "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug",
+		"source" : "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1"
 	},
 	"version" : 
 	{
