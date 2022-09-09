@@ -28,10 +28,7 @@ The CXX compiler identification is GNU, found in "C:/Users/iwaly/Documents/Skill
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ba2e2/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba2e2.dir\build.make CMakeFiles/cmTC_ba2e2.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ba2e2.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -v -o CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_60687 && [1/2] Building C object CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -39,8 +36,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\'
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_ba2e2.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccIzr44h.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/'
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_60687.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccyPeaGa.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -61,17 +58,13 @@ GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\'
- as -v -o CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj C:\Users\iwaly\AppData\Local\Temp\ccIzr44h.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/'
+ as -v -o CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj C:\Users\iwaly\AppData\Local\Temp\ccyPeaGa.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.'
-Linking C executable cmTC_ba2e2.exe
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba2e2.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ba2e2.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ba2e2.dir/objects.a @CMakeFiles\cmTC_ba2e2.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_ba2e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_ba2e2.exe -Wl,--out-implib,libcmTC_ba2e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_60687.exe
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -82,10 +75,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba2e2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba2e2.'
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ba2e2.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_ba2e2.dir/objects.a --no-whole-archive --out-implib libcmTC_ba2e2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba2e2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba2e2.'
-mingw32-make[1]: Leaving directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60687.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60687.'
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_60687.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_60687.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60687.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60687.'
 
 
 
@@ -108,10 +100,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ba2e2/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba2e2.dir\build.make CMakeFiles/cmTC_ba2e2.dir/build]
-  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ba2e2.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -v -o CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_60687 && [1/2] Building C object CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -119,8 +108,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\']
-  ignore line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_ba2e2.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccIzr44h.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/']
+  ignore line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_60687.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccyPeaGa.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -141,8 +130,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\']
-  ignore line: [ as -v -o CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj C:\Users\iwaly\AppData\Local\Temp\ccIzr44h.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/']
+  ignore line: [ as -v -o CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj C:\Users\iwaly\AppData\Local\Temp\ccyPeaGa.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/]
@@ -152,12 +141,8 @@ Parsed C implicit link information from above output:
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ba2e2.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_ba2e2.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba2e2.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ba2e2.dir/objects.a]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ba2e2.dir/objects.a @CMakeFiles\cmTC_ba2e2.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_ba2e2.dir/objects.a -Wl --no-whole-archive -o cmTC_ba2e2.exe -Wl --out-implib libcmTC_ba2e2.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_60687.exe]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -174,14 +159,14 @@ Parsed C implicit link information from above output:
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba2e2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba2e2.']
-  link line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ba2e2.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_ba2e2.dir/objects.a --no-whole-archive --out-implib libcmTC_ba2e2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60687.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60687.']
+  link line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_60687.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_60687.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_ba2e2.exe] ==> ignore
+    arg [cmTC_60687.exe] ==> ignore
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -190,11 +175,9 @@ Parsed C implicit link information from above output:
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_ba2e2.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_60687.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_ba2e2.dll.a] ==> ignore
+    arg [libcmTC_60687.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -244,10 +227,7 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b8fae/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b8fae.dir\build.make CMakeFiles/cmTC_b8fae.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b8fae.dir/CMakeCXXCompilerABI.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE   -v -o CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f934f && [1/2] Building CXX object CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE
 Target: x86_64-w64-mingw32
@@ -255,8 +235,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\'
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_b8fae.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccFdKi9I.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/'
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f934f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\cc1zUvYM.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -283,17 +263,13 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\'
- as -v -o CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\iwaly\AppData\Local\Temp\ccFdKi9I.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/'
+ as -v -o CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\iwaly\AppData\Local\Temp\cc1zUvYM.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_b8fae.exe
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b8fae.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b8fae.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_b8fae.dir/objects.a @CMakeFiles\cmTC_b8fae.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_b8fae.dir/objects.a -Wl,--no-whole-archive -o cmTC_b8fae.exe -Wl,--out-implib,libcmTC_b8fae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_f934f.exe
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE
 COLLECT_LTO_WRAPPER=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -304,10 +280,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8fae.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8fae.'
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b8fae.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_b8fae.dir/objects.a --no-whole-archive --out-implib libcmTC_b8fae.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8fae.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8fae.'
-mingw32-make[1]: Leaving directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f934f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f934f.'
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f934f.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f934f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f934f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f934f.'
 
 
 
@@ -336,10 +311,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b8fae/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b8fae.dir\build.make CMakeFiles/cmTC_b8fae.dir/build]
-  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b8fae.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE   -v -o CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f934f && [1/2] Building CXX object CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -347,8 +319,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\']
-  ignore line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_b8fae.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\ccFdKi9I.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/']
+  ignore line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f934f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\iwaly\AppData\Local\Temp\cc1zUvYM.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -375,8 +347,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\']
-  ignore line: [ as -v -o CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\iwaly\AppData\Local\Temp\ccFdKi9I.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/']
+  ignore line: [ as -v -o CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\iwaly\AppData\Local\Temp\cc1zUvYM.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/]
@@ -386,12 +358,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_b8fae.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_b8fae.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b8fae.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b8fae.dir/objects.a]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_b8fae.dir/objects.a @CMakeFiles\cmTC_b8fae.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE  -v -Wl --whole-archive CMakeFiles\cmTC_b8fae.dir/objects.a -Wl --no-whole-archive -o cmTC_b8fae.exe -Wl --out-implib libcmTC_b8fae.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_f934f.exe]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -408,14 +376,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8fae.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8fae.']
-  link line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b8fae.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_b8fae.dir/objects.a --no-whole-archive --out-implib libcmTC_b8fae.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f934f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f934f.']
+  link line: [ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f934f.exe C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f934f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_b8fae.exe] ==> ignore
+    arg [cmTC_f934f.exe] ==> ignore
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -424,11 +392,9 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_b8fae.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_f934f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_b8fae.dll.a] ==> ignore
+    arg [libcmTC_f934f.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -474,3 +440,1757 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_6a4d1 && [1/2] Building CXX object CMakeFiles/cmTC_6a4d1.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_6a4d1.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_15ee6 && [1/2] Building CXX object CMakeFiles/cmTC_15ee6.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_15ee6.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FNO_LTO_AVAILABLE succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_de301 && [1/2] Building C object CMakeFiles/cmTC_de301.dir/src.c.obj
+[2/2] Linking C executable cmTC_de301.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_b4619 && [1/2] Building C object CMakeFiles/cmTC_b4619.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_b4619.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e8588 && [1/2] Building C object CMakeFiles/cmTC_e8588.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e8588.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d94e9 && [1/2] Building C object CMakeFiles/cmTC_d94e9.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_d94e9.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_2be42 && [1/2] Building C object CMakeFiles/cmTC_2be42.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_2be42.exe
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ff340 && [1/2] Building C object CMakeFiles/cmTC_ff340.dir/OFF64_T.c.obj
+[2/2] Linking C executable cmTC_ff340.exe
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_1cd7e && [1/2] Building C object CMakeFiles/cmTC_1cd7e.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_1cd7e.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_cf30e && [1/2] Building C object CMakeFiles/cmTC_cf30e.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_cf30e.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_86039 && [1/2] Building C object CMakeFiles/cmTC_86039.dir/src.c.obj
+[2/2] Linking C executable cmTC_86039.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a403a && [1/2] Building C object CMakeFiles/cmTC_a403a.dir/src.c.obj
+[2/2] Linking C executable cmTC_a403a.exe
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ce5c7 && [1/2] Building C object CMakeFiles/cmTC_ce5c7.dir/src.c.obj
+[2/2] Linking C executable cmTC_ce5c7.exe
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_1429b && [1/2] Building C object CMakeFiles/cmTC_1429b.dir/src.c.obj
+[2/2] Linking C executable cmTC_1429b.exe
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_3cad1 && [1/2] Building C object CMakeFiles/cmTC_3cad1.dir/src.c.obj
+[2/2] Linking C executable cmTC_3cad1.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_93980 && [1/2] Building C object CMakeFiles/cmTC_93980.dir/src.c.obj
+[2/2] Linking C executable cmTC_93980.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e7675 && [1/2] Building C object CMakeFiles/cmTC_e7675.dir/src.c.obj
+[2/2] Linking C executable cmTC_e7675.exe
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov val, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_25f56 && [1/2] Building C object CMakeFiles/cmTC_25f56.dir/src.c.obj
+[2/2] Linking C executable cmTC_25f56.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e99a2 && [1/2] Building C object CMakeFiles/cmTC_e99a2.dir/src.c.obj
+[2/2] Linking C executable cmTC_e99a2.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_6febd && [1/2] Building C object CMakeFiles/cmTC_6febd.dir/src.c.obj
+[2/2] Linking C executable cmTC_6febd.exe
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_dac2a && [1/2] Building C object CMakeFiles/cmTC_dac2a.dir/src.c.obj
+[2/2] Linking C executable cmTC_dac2a.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Performing C SOURCE FILE Test OPT_pedantic succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_0672a && [1/2] Building C object CMakeFiles/cmTC_0672a.dir/src.c.obj
+[2/2] Linking C executable cmTC_0672a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wall succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_cb725 && [1/2] Building C object CMakeFiles/cmTC_cb725.dir/src.c.obj
+[2/2] Linking C executable cmTC_cb725.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_W succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a5f42 && [1/2] Building C object CMakeFiles/cmTC_a5f42.dir/src.c.obj
+[2/2] Linking C executable cmTC_a5f42.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wpointer_arith succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_30329 && [1/2] Building C object CMakeFiles/cmTC_30329.dir/src.c.obj
+[2/2] Linking C executable cmTC_30329.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wwrite_strings succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d0de0 && [1/2] Building C object CMakeFiles/cmTC_d0de0.dir/src.c.obj
+[2/2] Linking C executable cmTC_d0de0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wunused succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a3a87 && [1/2] Building C object CMakeFiles/cmTC_a3a87.dir/src.c.obj
+[2/2] Linking C executable cmTC_a3a87.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wshadow succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_30ae0 && [1/2] Building C object CMakeFiles/cmTC_30ae0.dir/src.c.obj
+[2/2] Linking C executable cmTC_30ae0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Winline succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_01cb9 && [1/2] Building C object CMakeFiles/cmTC_01cb9.dir/src.c.obj
+[2/2] Linking C executable cmTC_01cb9.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wnested_externs succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_2a249 && [1/2] Building C object CMakeFiles/cmTC_2a249.dir/src.c.obj
+[2/2] Linking C executable cmTC_2a249.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_declarations succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_be412 && [1/2] Building C object CMakeFiles/cmTC_be412.dir/src.c.obj
+[2/2] Linking C executable cmTC_be412.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_prototypes succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_07ea7 && [1/2] Building C object CMakeFiles/cmTC_07ea7.dir/src.c.obj
+[2/2] Linking C executable cmTC_07ea7.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wfloat_equal succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f855f && [1/2] Building C object CMakeFiles/cmTC_f855f.dir/src.c.obj
+[2/2] Linking C executable cmTC_f855f.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wsign_compare succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_23db0 && [1/2] Building C object CMakeFiles/cmTC_23db0.dir/src.c.obj
+[2/2] Linking C executable cmTC_23db0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wundef succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_88572 && [1/2] Building C object CMakeFiles/cmTC_88572.dir/src.c.obj
+[2/2] Linking C executable cmTC_88572.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wendif_labels succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e37ff && [1/2] Building C object CMakeFiles/cmTC_e37ff.dir/src.c.obj
+[2/2] Linking C executable cmTC_e37ff.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_prototypes succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_63417 && [1/2] Building C object CMakeFiles/cmTC_63417.dir/src.c.obj
+[2/2] Linking C executable cmTC_63417.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdeclaration_after_statement succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_802c3 && [1/2] Building C object CMakeFiles/cmTC_802c3.dir/src.c.obj
+[2/2] Linking C executable cmTC_802c3.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_aliasing_3 succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_27a83 && [1/2] Building C object CMakeFiles/cmTC_27a83.dir/src.c.obj
+[2/2] Linking C executable cmTC_27a83.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wcast_align succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_79c47 && [1/2] Building C object CMakeFiles/cmTC_79c47.dir/src.c.obj
+[2/2] Linking C executable cmTC_79c47.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wtype_limits succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ae1e4 && [1/2] Building C object CMakeFiles/cmTC_ae1e4.dir/src.c.obj
+[2/2] Linking C executable cmTC_ae1e4.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wold_style_declaration succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_bfdd4 && [1/2] Building C object CMakeFiles/cmTC_bfdd4.dir/src.c.obj
+[2/2] Linking C executable cmTC_bfdd4.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_parameter_type succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_818a9 && [1/2] Building C object CMakeFiles/cmTC_818a9.dir/src.c.obj
+[2/2] Linking C executable cmTC_818a9.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wempty_body succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_91437 && [1/2] Building C object CMakeFiles/cmTC_91437.dir/src.c.obj
+[2/2] Linking C executable cmTC_91437.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wclobbered succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_c95b8 && [1/2] Building C object CMakeFiles/cmTC_c95b8.dir/src.c.obj
+[2/2] Linking C executable cmTC_c95b8.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wignored_qualifiers succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_012a0 && [1/2] Building C object CMakeFiles/cmTC_012a0.dir/src.c.obj
+[2/2] Linking C executable cmTC_012a0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wconversion succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_dfd3f && [1/2] Building C object CMakeFiles/cmTC_dfd3f.dir/src.c.obj
+[2/2] Linking C executable cmTC_dfd3f.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wvla succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_24dfe && [1/2] Building C object CMakeFiles/cmTC_24dfe.dir/src.c.obj
+[2/2] Linking C executable cmTC_24dfe.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdouble_promotion succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_723f3 && [1/2] Building C object CMakeFiles/cmTC_723f3.dir/src.c.obj
+[2/2] Linking C executable cmTC_723f3.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTlong_long succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_7c605 && [1/2] Building C object CMakeFiles/cmTC_7c605.dir/src.c.obj
+[2/2] Linking C executable cmTC_7c605.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTmultichar succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_4fefd && [1/2] Building C object CMakeFiles/cmTC_4fefd.dir/src.c.obj
+[2/2] Linking C executable cmTC_4fefd.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTformat_nonliteral succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f9b7a && [1/2] Building C object CMakeFiles/cmTC_f9b7a.dir/src.c.obj
+[2/2] Linking C executable cmTC_f9b7a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsign_conversion succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d7930 && [1/2] Building C object CMakeFiles/cmTC_d7930.dir/src.c.obj
+[2/2] Linking C executable cmTC_d7930.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsystem_headers succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_78d4a && [1/2] Building C object CMakeFiles/cmTC_78d4a.dir/src.c.obj
+[2/2] Linking C executable cmTC_78d4a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTpedantic_ms_format succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_80abf && [1/2] Building C object CMakeFiles/cmTC_80abf.dir/src.c.obj
+[2/2] Linking C executable cmTC_80abf.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_3cbc8 && [1/2] Building C object CMakeFiles/cmTC_3cbc8.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_3cbc8.exe
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5b56c && [1/2] Building C object CMakeFiles/cmTC_5b56c.dir/src.c.obj
+[2/2] Linking C executable cmTC_5b56c.exe
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_6a2a5 && [1/2] Building C object CMakeFiles/cmTC_6a2a5.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_6a2a5.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_32678 && [1/2] Building C object CMakeFiles/cmTC_32678.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_32678.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_09074 && [1/2] Building C object CMakeFiles/cmTC_09074.dir/HAVE_WINDOWS_H.c.obj
+[2/2] Linking C executable cmTC_09074.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_4bbae && [1/2] Building C object CMakeFiles/cmTC_4bbae.dir/HAVE_WS2TCPIP_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_4bbae.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_69b73 && [1/2] Building C object CMakeFiles/cmTC_69b73.dir/HAVE_WINSOCK2_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_69b73.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_c43e6 && [1/2] Building C object CMakeFiles/cmTC_c43e6.dir/HAVE_WINCRYPT_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_c43e6.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d7c93 && [1/2] Building C object CMakeFiles/cmTC_d7c93.dir/HAVE_STDIO_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_STDIO_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_d7c93.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_0626f && [1/2] Building C object CMakeFiles/cmTC_0626f.dir/HAVE_ASSERT_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_0626f.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_3c82a && [1/2] Building C object CMakeFiles/cmTC_3c82a.dir/HAVE_ERRNO_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ERRNO_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_3c82a.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ef5ca && [1/2] Building C object CMakeFiles/cmTC_ef5ca.dir/HAVE_LIBGEN_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_ef5ca.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e53bb && [1/2] Building C object CMakeFiles/cmTC_e53bb.dir/HAVE_LOCALE_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_e53bb.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_1403e && [1/2] Building C object CMakeFiles/cmTC_1403e.dir/HAVE_STDBOOL_H.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_1403e.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_64f6c && [1/2] Building C object CMakeFiles/cmTC_64f6c.dir/SIZEOF_SIZE_T.c.obj
+[2/2] Linking C executable cmTC_64f6c.exe
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_183e7 && [1/2] Building C object CMakeFiles/cmTC_183e7.dir/SIZEOF_SSIZE_T.c.obj
+[2/2] Linking C executable cmTC_183e7.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_bea7b && [1/2] Building C object CMakeFiles/cmTC_bea7b.dir/SIZEOF_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_bea7b.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_25c29 && [1/2] Building C object CMakeFiles/cmTC_25c29.dir/SIZEOF_LONG.c.obj
+[2/2] Linking C executable cmTC_25c29.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_39a81 && [1/2] Building C object CMakeFiles/cmTC_39a81.dir/SIZEOF_SHORT.c.obj
+[2/2] Linking C executable cmTC_39a81.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a4b9f && [1/2] Building C object CMakeFiles/cmTC_a4b9f.dir/SIZEOF_INT.c.obj
+[2/2] Linking C executable cmTC_a4b9f.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5b0cd && [1/2] Building C object CMakeFiles/cmTC_5b0cd.dir/SIZEOF___INT64.c.obj
+[2/2] Linking C executable cmTC_5b0cd.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_bda8f && [1/2] Building C object CMakeFiles/cmTC_bda8f.dir/SIZEOF_TIME_T.c.obj
+[2/2] Linking C executable cmTC_bda8f.exe
+
+
+
+Determining if the basename exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ff235 && [1/2] Building C object CMakeFiles/cmTC_ff235.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&basename))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ff235.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_8db4a && [1/2] Building C object CMakeFiles/cmTC_8db4a.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&gethostbyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_8db4a.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_abe1d && [1/2] Building C object CMakeFiles/cmTC_abe1d.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&strtoll))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_abe1d.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_88e1f && [1/2] Building C object CMakeFiles/cmTC_88e1f.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&_strtoi64))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_88e1f.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_1cf19 && [1/2] Building C object CMakeFiles/cmTC_1cf19.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&freeaddrinfo))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_1cf19.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f2227 && [1/2] Building C object CMakeFiles/cmTC_f2227.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getprotobyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f2227.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_ec610 && [1/2] Building C object CMakeFiles/cmTC_ec610.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getpeername))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ec610.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_6545c && [1/2] Building C object CMakeFiles/cmTC_6545c.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&getsockname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_6545c.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_9605e && [1/2] Building C object CMakeFiles/cmTC_9605e.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setlocale))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_9605e.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_80673 && [1/2] Building C object CMakeFiles/cmTC_80673.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setmode))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_80673.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_46c18 && [1/2] Building C object CMakeFiles/cmTC_46c18.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&setsockopt))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_46c18.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_baa60 && [1/2] Building C object CMakeFiles/cmTC_baa60.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:32:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   32 |   return ((int*)(&inet_pton))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_baa60.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f9178 && [1/2] Building C object CMakeFiles/cmTC_f9178.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:236:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  236 | main ()
+      | ^~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:241:24: warning: 'socket' is used uninitialized [-Wuninitialized]
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_f9178.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_9d124 && [1/2] Building C object CMakeFiles/cmTC_9d124.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:308:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  308 | main ()
+      | ^~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function 'main':
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:312:41: warning: passing argument 3 of 'ioctlsocket' from incompatible pointer type [-Wincompatible-pointer-types]
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                         ^~~~~~
+      |                                         |
+      |                                         int *
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:303:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:1007:76: note: expected 'u_long *' {aka 'long unsigned int *'} but argument is of type 'int *'
+ 1007 |   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
+      |                                                                    ~~~~~~~~^~~~
+[2/2] Linking C executable cmTC_9d124.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_1d5e2 && [1/2] Building C object CMakeFiles/cmTC_1d5e2.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:169:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  169 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_1d5e2.exe
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_fd8e6 && [1/2] Building C object CMakeFiles/cmTC_fd8e6.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:221:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  221 | int main () { ; return 0; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_fd8e6.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_8839d && [1/2] Building C object CMakeFiles/cmTC_8839d.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:486:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  486 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_8839d.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_27a3e && [1/2] Building C object CMakeFiles/cmTC_27a3e.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:495:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  495 | #define gcc_vmacro3(first, args...) fun3(first, args)
+      |                                ^~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:496:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  496 | #define gcc_vmacro2(first, args...) fun2(first, args)
+      |                                ^~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:509:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  509 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_27a3e.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_dfa91 && [1/2] Building C object CMakeFiles/cmTC_dfa91.dir/SIZEOF_OFF_T.c.obj
+[2/2] Linking C executable cmTC_dfa91.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_31382 && [1/2] Building C object CMakeFiles/cmTC_31382.dir/SIZEOF_CURL_OFF_T.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/include/curl/system.h:422,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_CURL_OFF_T.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_31382.exe
+
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_319ae && [1/2] Building C object CMakeFiles/cmTC_319ae.dir/CurlTests.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:458:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  458 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_319ae.exe
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_48e0e && [1/2] Building C object CMakeFiles/cmTC_48e0e.dir/src.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_48e0e.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_9f31c && [1/2] Building C object CMakeFiles/cmTC_9f31c.dir/src.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_9f31c.a
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d6cde && [1/2] Building C object CMakeFiles/cmTC_d6cde.dir/src.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_d6cde.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_f580d && [1/2] Building C object CMakeFiles/cmTC_f580d.dir/src.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_f580d.a
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_68aec && [1/2] Building C object CMakeFiles/cmTC_68aec.dir/src.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_68aec.a
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e8417 && [1/2] Building C object CMakeFiles/cmTC_e8417.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
+In file included from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_STRUCT_SOCKADDR_STORAGE.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C static library libcmTC_e8417.a
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_52147 && [1/2] Building C object CMakeFiles/cmTC_52147.dir/CheckSymbolExists.c.obj
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+[2/2] Linking C executable cmTC_52147.exe
+
+
+File C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

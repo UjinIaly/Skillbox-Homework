@@ -1,0 +1,21 @@
+# ninja log v5
+1	65	6843756221819849	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	2fb841d4b9a72889
+1	65	6843756221819849	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	2fb841d4b9a72889
+66	5190	6843756273051293	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	c7076f2edea5583f
+66	5190	6843756273051293	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	c7076f2edea5583f
+5192	5254	6843756273700778	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	f9cd44c03c4ee2e6
+5192	5254	6843756273700778	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	f9cd44c03c4ee2e6
+5254	5329	6843756274422228	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	5dd5495ee2e0cfdf
+5254	5329	6843756274422228	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	5dd5495ee2e0cfdf
+5329	5395	6843756275111357	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	92a38b989a1156b3
+5329	5395	6843756275111357	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	92a38b989a1156b3
+5396	5460	6843756275759588	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	7ea3b85a5ca02ce1
+5396	5460	6843756275759588	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	7ea3b85a5ca02ce1
+5461	5524	6843756276400170	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	679cb908db75894
+5461	5524	6843756276400170	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	679cb908db75894
+5524	5595	6843756277110951	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2f6e8fb55cacbcb9
+5524	5595	6843756277110951	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2f6e8fb55cacbcb9
+5595	5684	6843756278005506	CMakeFiles/curl-populate-complete	81d5a6d9612fcbd5
+5595	5684	6843756278005506	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	81d5a6d9612fcbd5
+5595	5684	6843756278005506	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	81d5a6d9612fcbd5
+5595	5684	6843756278005506	C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	81d5a6d9612fcbd5

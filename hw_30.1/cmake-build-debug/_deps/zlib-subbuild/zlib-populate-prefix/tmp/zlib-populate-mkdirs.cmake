@@ -4,16 +4,16 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-src"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-build"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/tmp"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src"
-  "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-src"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-build"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/tmp"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src"
+  "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/${subDir}")
 endforeach()

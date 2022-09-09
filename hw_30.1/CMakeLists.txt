@@ -7,9 +7,9 @@ set(CMAKE_USE_OPENSSL OFF)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-include (FetchContent)
+include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git GIT_TAG 871ed52d350214a034f6ef8a3b8f51c5ce1bd400)
 FetchContent_MakeAvailable(cpr)
 
 add_executable(hw_30_1 main.cpp)
-target_link_libraries(hw_30_1 PRIVATE cpr:cpr)
+target_link_libraries(hw_30_1 PRIVATE cpr::cpr)

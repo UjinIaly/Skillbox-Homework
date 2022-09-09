@@ -1,14 +1,14 @@
 # Target labels
  cpr-populate
 # Source files and their labels
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test.rule
-/home/iwaly/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test.rule
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update.rule
