@@ -1,0 +1,773 @@
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_699d7 && [1/2] Building CXX object CMakeFiles/cmTC_699d7.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_699d7.exe
+FAILED: cmTC_699d7.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=thread  CMakeFiles/cmTC_699d7.dir/src.cxx.obj -o cmTC_699d7.exe -Wl,--out-implib,libcmTC_699d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -ltsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5cc9d && [1/2] Building CXX object CMakeFiles/cmTC_5cc9d.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_5cc9d.exe
+FAILED: cmTC_5cc9d.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=address  CMakeFiles/cmTC_5cc9d.dir/src.cxx.obj -o cmTC_5cc9d.exe -Wl,--out-implib,libcmTC_5cc9d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lasan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_14401 && [1/2] Building CXX object CMakeFiles/cmTC_14401.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_14401.exe
+FAILED: cmTC_14401.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=leak -fsanitize=undefined  CMakeFiles/cmTC_14401.dir/src.cxx.obj -o cmTC_14401.exe -Wl,--out-implib,libcmTC_14401.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lubsan
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -llsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_86edc && [1/2] Building C object CMakeFiles/cmTC_86edc.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_86edc.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -Wall -Wno-implicit-fallthrough  -std=c99 -o CMakeFiles/cmTC_86edc.dir/CheckIncludeFile.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_b90f6 && [1/2] Building C object CMakeFiles/cmTC_b90f6.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_b90f6.exe
+FAILED: cmTC_b90f6.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -Wall -Wno-implicit-fallthrough -DCHECK_FUNCTION_EXISTS=posix_memalign  CMakeFiles/cmTC_b90f6.dir/CheckFunctionExists.c.obj -o cmTC_b90f6.exe -Wl,--out-implib,libcmTC_b90f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_b90f6.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `posix_memalign'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a32df && [1/2] Building C object CMakeFiles/cmTC_a32df.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_a32df.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_c5739 && [1/2] Building C object CMakeFiles/cmTC_c5739.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_c5739.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_c1f36 && [1/2] Building CXX object CMakeFiles/cmTC_c1f36.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_c1f36.exe
+[31mFAILED: [0mcmTC_c1f36.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=thread  CMakeFiles/cmTC_c1f36.dir/src.cxx.obj -o cmTC_c1f36.exe -Wl,--out-implib,libcmTC_c1f36.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -ltsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_dd383 && [1/2] Building CXX object CMakeFiles/cmTC_dd383.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_dd383.exe
+[31mFAILED: [0mcmTC_dd383.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=address  CMakeFiles/cmTC_dd383.dir/src.cxx.obj -o cmTC_dd383.exe -Wl,--out-implib,libcmTC_dd383.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lasan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_93a69 && [1/2] Building CXX object CMakeFiles/cmTC_93a69.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_93a69.exe
+[31mFAILED: [0mcmTC_93a69.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=leak -fsanitize=undefined  CMakeFiles/cmTC_93a69.dir/src.cxx.obj -o cmTC_93a69.exe -Wl,--out-implib,libcmTC_93a69.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lubsan
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -llsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_9a2be && [1/2] Building C object CMakeFiles/cmTC_9a2be.dir/CheckIncludeFile.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_9a2be.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -Wall -Wno-implicit-fallthrough  -std=c99 -o CMakeFiles/cmTC_9a2be.dir/CheckIncludeFile.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_bf519 && [1/2] Building C object CMakeFiles/cmTC_bf519.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_bf519.exe
+[31mFAILED: [0mcmTC_bf519.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -Wall -Wno-implicit-fallthrough -DCHECK_FUNCTION_EXISTS=posix_memalign  CMakeFiles/cmTC_bf519.dir/CheckFunctionExists.c.obj -o cmTC_bf519.exe -Wl,--out-implib,libcmTC_bf519.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_bf519.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `posix_memalign'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_4faa2 && [1/2] Building C object CMakeFiles/cmTC_4faa2.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_4faa2.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_64152 && [1/2] Building C object CMakeFiles/cmTC_64152.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_64152.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_930fd && [1/2] Building C object CMakeFiles/cmTC_930fd.dir/HAVE_SYS_FILIO_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_930fd.dir/HAVE_SYS_FILIO_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_930fd.dir/HAVE_SYS_FILIO_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:7:10: fatal error: sys/filio.h: No such file or directory
+    7 | #include <sys/filio.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_a5b80 && [1/2] Building C object CMakeFiles/cmTC_a5b80.dir/HAVE_SYS_IOCTL_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_a5b80.dir/HAVE_SYS_IOCTL_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_a5b80.dir/HAVE_SYS_IOCTL_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c:7:10: fatal error: sys/ioctl.h: No such file or directory
+    7 | #include <sys/ioctl.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_3121e && [1/2] Building C object CMakeFiles/cmTC_3121e.dir/HAVE_SYS_RESOURCE_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_3121e.dir/HAVE_SYS_RESOURCE_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_3121e.dir/HAVE_SYS_RESOURCE_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c:7:10: fatal error: sys/resource.h: No such file or directory
+    7 | #include <sys/resource.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_8aec0 && [1/2] Building C object CMakeFiles/cmTC_8aec0.dir/HAVE_SYS_UIO_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_8aec0.dir/HAVE_SYS_UIO_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_8aec0.dir/HAVE_SYS_UIO_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c:9:10: fatal error: sys/uio.h: No such file or directory
+    9 | #include <sys/uio.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_847f5 && [1/2] Building C object CMakeFiles/cmTC_847f5.dir/HAVE_SYS_UN_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_847f5.dir/HAVE_SYS_UN_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_847f5.dir/HAVE_SYS_UN_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c:9:10: fatal error: sys/un.h: No such file or directory
+    9 | #include <sys/un.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_29974 && [1/2] Building C object CMakeFiles/cmTC_29974.dir/HAVE_SYS_XATTR_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_29974.dir/HAVE_SYS_XATTR_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_29974.dir/HAVE_SYS_XATTR_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c:10:10: fatal error: sys/xattr.h: No such file or directory
+   10 | #include <sys/xattr.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_9d9c0 && [1/2] Building C object CMakeFiles/cmTC_9d9c0.dir/HAVE_ARPA_TFTP_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_9d9c0.dir/HAVE_ARPA_TFTP_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_9d9c0.dir/HAVE_ARPA_TFTP_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c:10:10: fatal error: arpa/tftp.h: No such file or directory
+   10 | #include <arpa/tftp.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_7f484 && [1/2] Building C object CMakeFiles/cmTC_7f484.dir/HAVE_IDN2_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_7f484.dir/HAVE_IDN2_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_7f484.dir/HAVE_IDN2_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c:13:10: fatal error: idn2.h: No such file or directory
+   13 | #include <idn2.h>
+      |          ^~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_b07d5 && [1/2] Building C object CMakeFiles/cmTC_b07d5.dir/HAVE_IFADDRS_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_b07d5.dir/HAVE_IFADDRS_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_b07d5.dir/HAVE_IFADDRS_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c:13:10: fatal error: ifaddrs.h: No such file or directory
+   13 | #include <ifaddrs.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/ninja.exe cmTC_0ebff && [1/2] Building C object CMakeFiles/cmTC_0ebff.dir/HAVE_KRB_H.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_0ebff.dir/HAVE_KRB_H.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wno-pedantic-ms-format     -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 -o CMakeFiles/cmTC_0ebff.dir/HAVE_KRB_H.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c
+In file included from C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c:3:
+C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+   15 | #warning Please include winsock2.h before windows.h
+      |  ^~~~~~~
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c:14:10: fatal error: krb.h: No such file or directory
+   14 | #include <krb.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_81d16 && [1/2] Building CXX object CMakeFiles/cmTC_81d16.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_81d16.exe
+FAILED: cmTC_81d16.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=thread  CMakeFiles/cmTC_81d16.dir/src.cxx.obj -o cmTC_81d16.exe -Wl,--out-implib,libcmTC_81d16.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -ltsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5115a && [1/2] Building CXX object CMakeFiles/cmTC_5115a.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_5115a.exe
+FAILED: cmTC_5115a.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=address  CMakeFiles/cmTC_5115a.dir/src.cxx.obj -o cmTC_5115a.exe -Wl,--out-implib,libcmTC_5115a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lasan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_9b563 && [1/2] Building CXX object CMakeFiles/cmTC_9b563.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_9b563.exe
+FAILED: cmTC_9b563.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=leak -fsanitize=undefined  CMakeFiles/cmTC_9b563.dir/src.cxx.obj -o cmTC_9b563.exe -Wl,--out-implib,libcmTC_9b563.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lubsan
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -llsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_69b2e && [1/2] Building C object CMakeFiles/cmTC_69b2e.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_69b2e.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -Wall -Wno-implicit-fallthrough  -std=c99 -o CMakeFiles/cmTC_69b2e.dir/CheckIncludeFile.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_def38 && [1/2] Building C object CMakeFiles/cmTC_def38.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_def38.exe
+FAILED: cmTC_def38.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -Wall -Wno-implicit-fallthrough -DCHECK_FUNCTION_EXISTS=posix_memalign  CMakeFiles/cmTC_def38.dir/CheckFunctionExists.c.obj -o cmTC_def38.exe -Wl,--out-implib,libcmTC_def38.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_def38.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `posix_memalign'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_3928f && [1/2] Building C object CMakeFiles/cmTC_3928f.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_3928f.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_03eb7 && [1/2] Building C object CMakeFiles/cmTC_03eb7.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_03eb7.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e0ed5 && [1/2] Building CXX object CMakeFiles/cmTC_e0ed5.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_e0ed5.exe
+FAILED: cmTC_e0ed5.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=thread  CMakeFiles/cmTC_e0ed5.dir/src.cxx.obj -o cmTC_e0ed5.exe -Wl,--out-implib,libcmTC_e0ed5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -ltsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_c0cb9 && [1/2] Building CXX object CMakeFiles/cmTC_c0cb9.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_c0cb9.exe
+FAILED: cmTC_c0cb9.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=address  CMakeFiles/cmTC_c0cb9.dir/src.cxx.obj -o cmTC_c0cb9.exe -Wl,--out-implib,libcmTC_c0cb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lasan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_96c65 && [1/2] Building CXX object CMakeFiles/cmTC_96c65.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_96c65.exe
+FAILED: cmTC_96c65.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -fsanitize=leak -fsanitize=undefined  CMakeFiles/cmTC_96c65.dir/src.cxx.obj -o cmTC_96c65.exe -Wl,--out-implib,libcmTC_96c65.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lubsan
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -llsan
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_af7f7 && [1/2] Building C object CMakeFiles/cmTC_af7f7.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_af7f7.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -Wall -Wno-implicit-fallthrough  -std=c99 -o CMakeFiles/cmTC_af7f7.dir/CheckIncludeFile.c.obj -c C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_8a362 && [1/2] Building C object CMakeFiles/cmTC_8a362.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_8a362.exe
+FAILED: cmTC_8a362.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -Wall -Wno-implicit-fallthrough -DCHECK_FUNCTION_EXISTS=posix_memalign  CMakeFiles/cmTC_8a362.dir/CheckFunctionExists.c.obj -o cmTC_8a362.exe -Wl,--out-implib,libcmTC_8a362.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_8a362.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `posix_memalign'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e33a3 && [1/2] Building C object CMakeFiles/cmTC_e33a3.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_e33a3.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_2fb69 && [1/2] Building C object CMakeFiles/cmTC_2fb69.dir/src.c.obj
+C:/Users/iwaly/Documents/Skillbox-Homework/hw_30.2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_2fb69.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
