@@ -425,3 +425,4970 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4003c && [1/2] Building CXX object CMakeFiles/cmTC_4003c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4003c
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_10656 && [1/2] Building CXX object CMakeFiles/cmTC_10656.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_10656
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_08507 && [1/2] Building CXX object CMakeFiles/cmTC_08507.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_08507
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_928c0 && [1/2] Building CXX object CMakeFiles/cmTC_928c0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_928c0
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE succeeded with the following compile output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2cac2 && [1/2] Building CXX object CMakeFiles/cmTC_2cac2.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2cac2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FNO_LTO_AVAILABLE succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_702e4 && [1/2] Building C object CMakeFiles/cmTC_702e4.dir/src.c.o
+[2/2] Linking C executable cmTC_702e4
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d8cc3 && [1/2] Building C object CMakeFiles/cmTC_d8cc3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d8cc3
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6dcbe && [1/2] Building C object CMakeFiles/cmTC_6dcbe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6dcbe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_afd72 && [1/2] Building C object CMakeFiles/cmTC_afd72.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_afd72
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2c3dd && [1/2] Building C object CMakeFiles/cmTC_2c3dd.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2c3dd
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7bb99 && [1/2] Building C object CMakeFiles/cmTC_7bb99.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_7bb99
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_9fff8 && [1/2] Building C object CMakeFiles/cmTC_9fff8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9fff8
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7e656 && [1/2] Building C object CMakeFiles/cmTC_7e656.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7e656
+
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6b321 && [1/2] Building C object CMakeFiles/cmTC_6b321.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6b321
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3e811 && [1/2] Building C object CMakeFiles/cmTC_3e811.dir/src.c.o
+[2/2] Linking C executable cmTC_3e811
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6837c && [1/2] Building C object CMakeFiles/cmTC_6837c.dir/src.c.o
+[2/2] Linking C executable cmTC_6837c
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_185e0 && [1/2] Building C object CMakeFiles/cmTC_185e0.dir/src.c.o
+[2/2] Linking C executable cmTC_185e0
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_45886 && [1/2] Building C object CMakeFiles/cmTC_45886.dir/src.c.o
+[2/2] Linking C executable cmTC_45886
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_49e5b && [1/2] Building C object CMakeFiles/cmTC_49e5b.dir/src.c.o
+[2/2] Linking C executable cmTC_49e5b
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_fb1c9 && [1/2] Building C object CMakeFiles/cmTC_fb1c9.dir/src.c.o
+[2/2] Linking C executable cmTC_fb1c9
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_9eecc && [1/2] Building C object CMakeFiles/cmTC_9eecc.dir/src.c.o
+[2/2] Linking C executable cmTC_9eecc
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_71e2b && [1/2] Building C object CMakeFiles/cmTC_71e2b.dir/src.c.o
+[2/2] Linking C executable cmTC_71e2b
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_424d2 && [1/2] Building C object CMakeFiles/cmTC_424d2.dir/src.c.o
+[2/2] Linking C executable cmTC_424d2
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov val, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_305ad && [1/2] Building C object CMakeFiles/cmTC_305ad.dir/src.c.o
+[2/2] Linking C executable cmTC_305ad
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_64143 && [1/2] Building C object CMakeFiles/cmTC_64143.dir/src.c.o
+[2/2] Linking C executable cmTC_64143
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_68add && [1/2] Building C object CMakeFiles/cmTC_68add.dir/src.c.o
+[2/2] Linking C executable cmTC_68add
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_849bf && [1/2] Building C object CMakeFiles/cmTC_849bf.dir/src.c.o
+[2/2] Linking C executable cmTC_849bf
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Performing C SOURCE FILE Test OPT_pedantic succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_bd094 && [1/2] Building C object CMakeFiles/cmTC_bd094.dir/src.c.o
+[2/2] Linking C executable cmTC_bd094
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wall succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e155d && [1/2] Building C object CMakeFiles/cmTC_e155d.dir/src.c.o
+[2/2] Linking C executable cmTC_e155d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_W succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_cc951 && [1/2] Building C object CMakeFiles/cmTC_cc951.dir/src.c.o
+[2/2] Linking C executable cmTC_cc951
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wpointer_arith succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b1d02 && [1/2] Building C object CMakeFiles/cmTC_b1d02.dir/src.c.o
+[2/2] Linking C executable cmTC_b1d02
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wwrite_strings succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_79a3d && [1/2] Building C object CMakeFiles/cmTC_79a3d.dir/src.c.o
+[2/2] Linking C executable cmTC_79a3d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wunused succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7cd47 && [1/2] Building C object CMakeFiles/cmTC_7cd47.dir/src.c.o
+[2/2] Linking C executable cmTC_7cd47
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wshadow succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_8aa4e && [1/2] Building C object CMakeFiles/cmTC_8aa4e.dir/src.c.o
+[2/2] Linking C executable cmTC_8aa4e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Winline succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_86dbb && [1/2] Building C object CMakeFiles/cmTC_86dbb.dir/src.c.o
+[2/2] Linking C executable cmTC_86dbb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wnested_externs succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_1767d && [1/2] Building C object CMakeFiles/cmTC_1767d.dir/src.c.o
+[2/2] Linking C executable cmTC_1767d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_declarations succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_ba4fe && [1/2] Building C object CMakeFiles/cmTC_ba4fe.dir/src.c.o
+[2/2] Linking C executable cmTC_ba4fe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_prototypes succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_1c869 && [1/2] Building C object CMakeFiles/cmTC_1c869.dir/src.c.o
+[2/2] Linking C executable cmTC_1c869
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wfloat_equal succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_15e44 && [1/2] Building C object CMakeFiles/cmTC_15e44.dir/src.c.o
+[2/2] Linking C executable cmTC_15e44
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wsign_compare succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d2141 && [1/2] Building C object CMakeFiles/cmTC_d2141.dir/src.c.o
+[2/2] Linking C executable cmTC_d2141
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wundef succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_899f5 && [1/2] Building C object CMakeFiles/cmTC_899f5.dir/src.c.o
+[2/2] Linking C executable cmTC_899f5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wendif_labels succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4fd9d && [1/2] Building C object CMakeFiles/cmTC_4fd9d.dir/src.c.o
+[2/2] Linking C executable cmTC_4fd9d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_prototypes succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e887d && [1/2] Building C object CMakeFiles/cmTC_e887d.dir/src.c.o
+[2/2] Linking C executable cmTC_e887d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdeclaration_after_statement succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_fe339 && [1/2] Building C object CMakeFiles/cmTC_fe339.dir/src.c.o
+[2/2] Linking C executable cmTC_fe339
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wstrict_aliasing_3 succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_bb5e4 && [1/2] Building C object CMakeFiles/cmTC_bb5e4.dir/src.c.o
+[2/2] Linking C executable cmTC_bb5e4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wcast_align succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e6f30 && [1/2] Building C object CMakeFiles/cmTC_e6f30.dir/src.c.o
+[2/2] Linking C executable cmTC_e6f30
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wtype_limits succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_9e019 && [1/2] Building C object CMakeFiles/cmTC_9e019.dir/src.c.o
+[2/2] Linking C executable cmTC_9e019
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wold_style_declaration succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_714f1 && [1/2] Building C object CMakeFiles/cmTC_714f1.dir/src.c.o
+[2/2] Linking C executable cmTC_714f1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wmissing_parameter_type succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_dfe68 && [1/2] Building C object CMakeFiles/cmTC_dfe68.dir/src.c.o
+[2/2] Linking C executable cmTC_dfe68
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wempty_body succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_dac62 && [1/2] Building C object CMakeFiles/cmTC_dac62.dir/src.c.o
+[2/2] Linking C executable cmTC_dac62
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wclobbered succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7a565 && [1/2] Building C object CMakeFiles/cmTC_7a565.dir/src.c.o
+[2/2] Linking C executable cmTC_7a565
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wignored_qualifiers succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_aa061 && [1/2] Building C object CMakeFiles/cmTC_aa061.dir/src.c.o
+[2/2] Linking C executable cmTC_aa061
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wconversion succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b0ae3 && [1/2] Building C object CMakeFiles/cmTC_b0ae3.dir/src.c.o
+[2/2] Linking C executable cmTC_b0ae3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wvla succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b904a && [1/2] Building C object CMakeFiles/cmTC_b904a.dir/src.c.o
+[2/2] Linking C executable cmTC_b904a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wdouble_promotion succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_ad7c2 && [1/2] Building C object CMakeFiles/cmTC_ad7c2.dir/src.c.o
+[2/2] Linking C executable cmTC_ad7c2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTlong_long succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_19cef && [1/2] Building C object CMakeFiles/cmTC_19cef.dir/src.c.o
+[2/2] Linking C executable cmTC_19cef
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTmultichar succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5e136 && [1/2] Building C object CMakeFiles/cmTC_5e136.dir/src.c.o
+[2/2] Linking C executable cmTC_5e136
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTformat_nonliteral succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_91f8f && [1/2] Building C object CMakeFiles/cmTC_91f8f.dir/src.c.o
+[2/2] Linking C executable cmTC_91f8f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsign_conversion succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2cb66 && [1/2] Building C object CMakeFiles/cmTC_2cb66.dir/src.c.o
+[2/2] Linking C executable cmTC_2cb66
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPTsystem_headers succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e3552 && [1/2] Building C object CMakeFiles/cmTC_e3552.dir/src.c.o
+[2/2] Linking C executable cmTC_e3552
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_ADDR succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_984ff && [1/2] Building C object CMakeFiles/cmTC_984ff.dir/src.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+[2/2] Linking C executable cmTC_984ff
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_addr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_75998 && [1/2] Building C object CMakeFiles/cmTC_75998.dir/src.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+[2/2] Linking C executable cmTC_75998
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+  return 0;
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_10dd3 && [1/2] Building C object CMakeFiles/cmTC_10dd3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_10dd3
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f622d && [1/2] Building C object CMakeFiles/cmTC_f622d.dir/src.c.o
+[2/2] Linking C executable cmTC_f622d
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function dlopen exists in the dl; passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2dd82 && [1/2] Building C object CMakeFiles/cmTC_2dd82.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2dd82
+
+
+
+Determining if the function gethostbyname exists in the c passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d3e30 && [1/2] Building C object CMakeFiles/cmTC_d3e30.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d3e30
+
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5412d && [1/2] Building C object CMakeFiles/cmTC_5412d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5412d
+
+
+
+Determining if the include file openssl/crypto.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f5d66 && [1/2] Building C object CMakeFiles/cmTC_f5d66.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f5d66
+
+
+
+Determining if the include file openssl/err.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_14357 && [1/2] Building C object CMakeFiles/cmTC_14357.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_14357
+
+
+
+Determining if the include file openssl/pem.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3b024 && [1/2] Building C object CMakeFiles/cmTC_3b024.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3b024
+
+
+
+Determining if the include file openssl/rsa.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_c9cae && [1/2] Building C object CMakeFiles/cmTC_c9cae.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c9cae
+
+
+
+Determining if the include file openssl/ssl.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_11a0e && [1/2] Building C object CMakeFiles/cmTC_11a0e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_11a0e
+
+
+
+Determining if the include file openssl/x509.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_c8207 && [1/2] Building C object CMakeFiles/cmTC_c8207.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c8207
+
+
+
+Determining if the include file openssl/rand.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a433d && [1/2] Building C object CMakeFiles/cmTC_a433d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a433d
+
+
+
+Determining if the function dlopen exists in the dl;OpenSSL::SSL;OpenSSL::Crypto passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6d14e && [1/2] Building C object CMakeFiles/cmTC_6d14e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6d14e
+
+
+
+Performing C SOURCE FILE Test USE_UNIX_SOCKETS succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_605c1 && [1/2] Building C object CMakeFiles/cmTC_605c1.dir/src.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 | int main()
+      |     ^~~~
+[2/2] Linking C executable cmTC_605c1
+
+
+Source file was:
+
+#include <sys/un.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_un *)0)->sun_path);
+  return 0;
+}
+
+Determining if files ;stdio.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d77f6 && [1/2] Building C object CMakeFiles/cmTC_d77f6.dir/HAVE_STDIO_H.c.o
+[2/2] Linking C executable cmTC_d77f6
+
+
+
+Determining if files stdio.h;inttypes.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_9dbea && [1/2] Building C object CMakeFiles/cmTC_9dbea.dir/HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_9dbea
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_34560 && [1/2] Building C object CMakeFiles/cmTC_34560.dir/HAVE_SYS_IOCTL_H.c.o
+[2/2] Linking C executable cmTC_34560
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_28b30 && [1/2] Building C object CMakeFiles/cmTC_28b30.dir/HAVE_SYS_PARAM_H.c.o
+[2/2] Linking C executable cmTC_28b30
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5163b && [1/2] Building C object CMakeFiles/cmTC_5163b.dir/HAVE_SYS_POLL_H.c.o
+[2/2] Linking C executable cmTC_5163b
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b1d93 && [1/2] Building C object CMakeFiles/cmTC_b1d93.dir/HAVE_SYS_RESOURCE_H.c.o
+[2/2] Linking C executable cmTC_b1d93
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_9741a && [1/2] Building C object CMakeFiles/cmTC_9741a.dir/HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_9741a
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_296e9 && [1/2] Building C object CMakeFiles/cmTC_296e9.dir/HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_296e9
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b9f3e && [1/2] Building C object CMakeFiles/cmTC_b9f3e.dir/HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_b9f3e
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_fac09 && [1/2] Building C object CMakeFiles/cmTC_fac09.dir/HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_fac09
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3d24b && [1/2] Building C object CMakeFiles/cmTC_3d24b.dir/HAVE_SYS_UIO_H.c.o
+[2/2] Linking C executable cmTC_3d24b
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e560f && [1/2] Building C object CMakeFiles/cmTC_e560f.dir/HAVE_SYS_UN_H.c.o
+[2/2] Linking C executable cmTC_e560f
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_1a259 && [1/2] Building C object CMakeFiles/cmTC_1a259.dir/HAVE_SYS_XATTR_H.c.o
+[2/2] Linking C executable cmTC_1a259
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4aead && [1/2] Building C object CMakeFiles/cmTC_4aead.dir/HAVE_ALLOCA_H.c.o
+[2/2] Linking C executable cmTC_4aead
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a6f18 && [1/2] Building C object CMakeFiles/cmTC_a6f18.dir/HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_a6f18
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7fc26 && [1/2] Building C object CMakeFiles/cmTC_7fc26.dir/HAVE_ARPA_TFTP_H.c.o
+[2/2] Linking C executable cmTC_7fc26
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e4d2d && [1/2] Building C object CMakeFiles/cmTC_e4d2d.dir/HAVE_ASSERT_H.c.o
+[2/2] Linking C executable cmTC_e4d2d
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_dde90 && [1/2] Building C object CMakeFiles/cmTC_dde90.dir/HAVE_ERRNO_H.c.o
+[2/2] Linking C executable cmTC_dde90
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f19da && [1/2] Building C object CMakeFiles/cmTC_f19da.dir/HAVE_FCNTL_H.c.o
+[2/2] Linking C executable cmTC_f19da
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f4551 && [1/2] Building C object CMakeFiles/cmTC_f4551.dir/HAVE_IFADDRS_H.c.o
+[2/2] Linking C executable cmTC_f4551
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_925ca && [1/2] Building C object CMakeFiles/cmTC_925ca.dir/HAVE_LIBGEN_H.c.o
+[2/2] Linking C executable cmTC_925ca
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3903e && [1/2] Building C object CMakeFiles/cmTC_3903e.dir/HAVE_LOCALE_H.c.o
+[2/2] Linking C executable cmTC_3903e
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5b90f && [1/2] Building C object CMakeFiles/cmTC_5b90f.dir/HAVE_NET_IF_H.c.o
+[2/2] Linking C executable cmTC_5b90f
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_22e2c && [1/2] Building C object CMakeFiles/cmTC_22e2c.dir/HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_22e2c
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_612c2 && [1/2] Building C object CMakeFiles/cmTC_612c2.dir/HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_612c2
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_aa688 && [1/2] Building C object CMakeFiles/cmTC_aa688.dir/HAVE_NETINET_TCP_H.c.o
+[2/2] Linking C executable cmTC_aa688
+
+
+
+Determining if the include file linux/tcp.h exists passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_60af3 && [1/2] Building C object CMakeFiles/cmTC_60af3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_60af3
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d6f09 && [1/2] Building C object CMakeFiles/cmTC_d6f09.dir/HAVE_POLL_H.c.o
+[2/2] Linking C executable cmTC_d6f09
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_562cf && [1/2] Building C object CMakeFiles/cmTC_562cf.dir/HAVE_PWD_H.c.o
+[2/2] Linking C executable cmTC_562cf
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d9458 && [1/2] Building C object CMakeFiles/cmTC_d9458.dir/HAVE_SETJMP_H.c.o
+[2/2] Linking C executable cmTC_d9458
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_8e7bd && [1/2] Building C object CMakeFiles/cmTC_8e7bd.dir/HAVE_SIGNAL_H.c.o
+[2/2] Linking C executable cmTC_8e7bd
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4455a && [1/2] Building C object CMakeFiles/cmTC_4455a.dir/HAVE_STDBOOL_H.c.o
+[2/2] Linking C executable cmTC_4455a
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_44699 && [1/2] Building C object CMakeFiles/cmTC_44699.dir/HAVE_STDLIB_H.c.o
+[2/2] Linking C executable cmTC_44699
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3fbcb && [1/2] Building C object CMakeFiles/cmTC_3fbcb.dir/HAVE_STRING_H.c.o
+[2/2] Linking C executable cmTC_3fbcb
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_84a86 && [1/2] Building C object CMakeFiles/cmTC_84a86.dir/HAVE_STRINGS_H.c.o
+[2/2] Linking C executable cmTC_84a86
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_70ff9 && [1/2] Building C object CMakeFiles/cmTC_70ff9.dir/HAVE_TERMIO_H.c.o
+[2/2] Linking C executable cmTC_70ff9
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6d947 && [1/2] Building C object CMakeFiles/cmTC_6d947.dir/HAVE_TERMIOS_H.c.o
+[2/2] Linking C executable cmTC_6d947
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b6e30 && [1/2] Building C object CMakeFiles/cmTC_b6e30.dir/HAVE_TIME_H.c.o
+[2/2] Linking C executable cmTC_b6e30
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5f964 && [1/2] Building C object CMakeFiles/cmTC_5f964.dir/HAVE_UTIME_H.c.o
+[2/2] Linking C executable cmTC_5f964
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_97d5a && [1/2] Building C object CMakeFiles/cmTC_97d5a.dir/HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_97d5a
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6178c && [1/2] Building C object CMakeFiles/cmTC_6178c.dir/HAVE_MALLOC_H.c.o
+[2/2] Linking C executable cmTC_6178c
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_93052 && [1/2] Building C object CMakeFiles/cmTC_93052.dir/HAVE_MEMORY_H.c.o
+[2/2] Linking C executable cmTC_93052
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h;netinet/if_ether.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d0a9d && [1/2] Building C object CMakeFiles/cmTC_d0a9d.dir/HAVE_NETINET_IF_ETHER_H.c.o
+[2/2] Linking C executable cmTC_d0a9d
+
+
+
+Determining if files stdio.h;inttypes.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/uio.h;sys/un.h;sys/xattr.h;alloca.h;arpa/inet.h;arpa/tftp.h;assert.h;errno.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;poll.h;pwd.h;setjmp.h;signal.h;stdbool.h;stdint.h;stdio.h;stdlib.h;string.h;strings.h;termio.h;termios.h;time.h;unistd.h;utime.h;stddef.h;dlfcn.h;malloc.h;memory.h;netinet/if_ether.h;stdint.h;sys/utsname.h exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e590d && [1/2] Building C object CMakeFiles/cmTC_e590d.dir/HAVE_SYS_UTSNAME_H.c.o
+[2/2] Linking C executable cmTC_e590d
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d80b5 && [1/2] Building C object CMakeFiles/cmTC_d80b5.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_d80b5
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e7526 && [1/2] Building C object CMakeFiles/cmTC_e7526.dir/SIZEOF_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_e7526
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5e75c && [1/2] Building C object CMakeFiles/cmTC_5e75c.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_5e75c
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_762a0 && [1/2] Building C object CMakeFiles/cmTC_762a0.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_762a0
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_25393 && [1/2] Building C object CMakeFiles/cmTC_25393.dir/SIZEOF_SHORT.c.o
+[2/2] Linking C executable cmTC_25393
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_20f6c && [1/2] Building C object CMakeFiles/cmTC_20f6c.dir/SIZEOF_INT.c.o
+[2/2] Linking C executable cmTC_20f6c
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7a0ae && [1/2] Building C object CMakeFiles/cmTC_7a0ae.dir/SIZEOF_LONG_DOUBLE.c.o
+[2/2] Linking C executable cmTC_7a0ae
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_c11cc && [1/2] Building C object CMakeFiles/cmTC_c11cc.dir/SIZEOF_TIME_T.c.o
+[2/2] Linking C executable cmTC_c11cc
+
+
+
+Determining if the basename exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e9a5d && [1/2] Building C object CMakeFiles/cmTC_e9a5d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e9a5d
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the socket exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_7897d && [1/2] Building C object CMakeFiles/cmTC_7897d.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&socket))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_7897d
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the select exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d4ee0 && [1/2] Building C object CMakeFiles/cmTC_d4ee0.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&select))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_d4ee0
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef select
+  return ((int*)(&select))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_aedd8 && [1/2] Building C object CMakeFiles/cmTC_aedd8.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&poll))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_aedd8
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e4b8c && [1/2] Building C object CMakeFiles/cmTC_e4b8c.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strdup))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e4b8c
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strstr exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_1f6ce && [1/2] Building C object CMakeFiles/cmTC_1f6ce.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strstr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_1f6ce
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_ff9b2 && [1/2] Building C object CMakeFiles/cmTC_ff9b2.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strtok_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ff9b2
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strftime exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b2f6a && [1/2] Building C object CMakeFiles/cmTC_b2f6a.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strftime))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_b2f6a
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strftime
+  return ((int*)(&strftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uname exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_caad6 && [1/2] Building C object CMakeFiles/cmTC_caad6.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&uname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_caad6
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uname
+  return ((int*)(&uname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f9ec8 && [1/2] Building C object CMakeFiles/cmTC_f9ec8.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strcasecmp))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f9ec8
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alarm exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4e5f0 && [1/2] Building C object CMakeFiles/cmTC_4e5f0.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&alarm))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_4e5f0
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getppid exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_0a43d && [1/2] Building C object CMakeFiles/cmTC_0a43d.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getppid))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_0a43d
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getppid
+  return ((int*)(&getppid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimes exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_15212 && [1/2] Building C object CMakeFiles/cmTC_15212.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&utimes))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_15212
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimes
+  return ((int*)(&utimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5d170 && [1/2] Building C object CMakeFiles/cmTC_5d170.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&gettimeofday))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_5d170
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_addr exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_65503 && [1/2] Building C object CMakeFiles/cmTC_65503.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&inet_addr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_65503
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_addr
+  return ((int*)(&inet_addr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b86f6 && [1/2] Building C object CMakeFiles/cmTC_b86f6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b86f6
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_d4206 && [1/2] Building C object CMakeFiles/cmTC_d4206.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getpwuid))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_d4206
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid
+  return ((int*)(&getpwuid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_32b37 && [1/2] Building C object CMakeFiles/cmTC_32b37.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getpwuid_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_32b37
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the geteuid exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5c47d && [1/2] Building C object CMakeFiles/cmTC_5c47d.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&geteuid))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_5c47d
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef geteuid
+  return ((int*)(&geteuid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the usleep exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f623b && [1/2] Building C object CMakeFiles/cmTC_f623b.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&usleep))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f623b
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utime exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_409a0 && [1/2] Building C object CMakeFiles/cmTC_409a0.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&utime))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_409a0
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utime
+  return ((int*)(&utime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_ae1cb && [1/2] Building C object CMakeFiles/cmTC_ae1cb.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&gmtime_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_ae1cb
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2d30f && [1/2] Building C object CMakeFiles/cmTC_2d30f.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&localtime_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_2d30f
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_65cb5 && [1/2] Building C object CMakeFiles/cmTC_65cb5.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&gethostbyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_65cb5
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_69bfc && [1/2] Building C object CMakeFiles/cmTC_69bfc.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&gethostbyname_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_69bfc
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname_r
+  return ((int*)(&gethostbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the signal exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_00966 && [1/2] Building C object CMakeFiles/cmTC_00966.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&signal))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_00966
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef signal
+  return ((int*)(&signal))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the SIGALRM exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_c92b6 && [1/2] Building C object CMakeFiles/cmTC_c92b6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c92b6
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGALRM
+  return ((int*)(&SIGALRM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_748d2 && [1/2] Building C object CMakeFiles/cmTC_748d2.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strtoll))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_748d2
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e89cc && [1/2] Building C object CMakeFiles/cmTC_e89cc.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&strerror_r))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e89cc
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the siginterrupt exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_3a046 && [1/2] Building C object CMakeFiles/cmTC_3a046.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:3: warning: ‘siginterrupt’ is deprecated: Use sigaction with SA_RESTART instead [-Wdeprecated-declarations]
+   56 |   return ((int*)(&siginterrupt))[argc];
+      |   ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/param.h:28,
+                 from /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:5:
+/usr/include/signal.h:324:12: note: declared here
+  324 | extern int siginterrupt (int __sig, int __interrupt) __THROW
+      |            ^~~~~~~~~~~~
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&siginterrupt))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_3a046
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e6123 && [1/2] Building C object CMakeFiles/cmTC_e6123.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getaddrinfo))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e6123
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a1c0f && [1/2] Building C object CMakeFiles/cmTC_a1c0f.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&freeaddrinfo))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a1c0f
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_642d8 && [1/2] Building C object CMakeFiles/cmTC_642d8.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&pipe))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_642d8
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftruncate exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f3f2e && [1/2] Building C object CMakeFiles/cmTC_f3f2e.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&ftruncate))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_f3f2e
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a8901 && [1/2] Building C object CMakeFiles/cmTC_a8901.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getprotobyname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_a8901
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_52a20 && [1/2] Building C object CMakeFiles/cmTC_52a20.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getpeername))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_52a20
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_da012 && [1/2] Building C object CMakeFiles/cmTC_da012.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getsockname))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_da012
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the if_nametoindex exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b81f1 && [1/2] Building C object CMakeFiles/cmTC_b81f1.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&if_nametoindex))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_b81f1
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_nametoindex
+  return ((int*)(&if_nametoindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5b4f3 && [1/2] Building C object CMakeFiles/cmTC_5b4f3.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&getrlimit))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_5b4f3
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2ba21 && [1/2] Building C object CMakeFiles/cmTC_2ba21.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&setlocale))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_2ba21
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_67aa5 && [1/2] Building C object CMakeFiles/cmTC_67aa5.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&setrlimit))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_67aa5
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e249e && [1/2] Building C object CMakeFiles/cmTC_e249e.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&fcntl))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e249e
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_5e4f4 && [1/2] Building C object CMakeFiles/cmTC_5e4f4.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&ioctl))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_5e4f4
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_75da1 && [1/2] Building C object CMakeFiles/cmTC_75da1.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&setsockopt))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_75da1
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_50801 && [1/2] Building C object CMakeFiles/cmTC_50801.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&inet_pton))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_50801
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fsetxattr exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_b136c && [1/2] Building C object CMakeFiles/cmTC_b136c.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:56:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   56 |   return ((int*)(&fsetxattr))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_b136c
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <alloca.h>
+#include <arpa/inet.h>
+#include <arpa/tftp.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stddef.h>
+#include <dlfcn.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netinet/if_ether.h>
+#include <stdint.h>
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_FSETXATTR_5 passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_8f7e2 && [1/2] Building C object CMakeFiles/cmTC_8f7e2.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:450:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  450 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_8f7e2
+
+
+Determining size of sa_family_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_79051 && [1/2] Building C object CMakeFiles/cmTC_79051.dir/SIZEOF_SA_FAMILY_T.c.o
+[2/2] Linking C executable cmTC_79051
+
+
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e6d1d && [1/2] Building C object CMakeFiles/cmTC_e6d1d.dir/CheckSymbolExists.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&sigaction))[argc];
+      |           ^
+[2/2] Linking C executable cmTC_e6d1d
+
+
+File /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_49b38 && [1/2] Building C object CMakeFiles/cmTC_49b38.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:64:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   64 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_49b38
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_62198 && [1/2] Building C object CMakeFiles/cmTC_62198.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:339:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  339 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_62198
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_45d78 && [1/2] Building C object CMakeFiles/cmTC_45d78.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:371:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  371 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_45d78
+
+
+Performing Curl Test TIME_WITH_SYS_TIME passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_44556 && [1/2] Building C object CMakeFiles/cmTC_44556.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:30:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   30 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_44556
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6 passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_f6f0f && [1/2] Building C object CMakeFiles/cmTC_f6f0f.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_f6f0f
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2b97e && [1/2] Building C object CMakeFiles/cmTC_2b97e.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_2b97e
+
+
+Performing Curl Test HAVE_IN_ADDR_T passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6d212 && [1/2] Building C object CMakeFiles/cmTC_6d212.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:150:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  150 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_6d212
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_cd752 && [1/2] Building C object CMakeFiles/cmTC_cd752.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:169:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  169 | main ()
+      | ^~~~
+[2/2] Linking C executable cmTC_cd752
+
+
+Performing Curl Test STDC_HEADERS passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_fb53e && [1/2] Building C object CMakeFiles/cmTC_fb53e.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:183:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  183 | int main() { return 0; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_fb53e
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4d55d && [1/2] Building C object CMakeFiles/cmTC_4d55d.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:221:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  221 | int main () { ; return 0; }
+      |     ^~~~
+[2/2] Linking C executable cmTC_4d55d
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e0137 && [1/2] Building C object CMakeFiles/cmTC_e0137.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:486:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  486 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_e0137
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_e2aa5 && [1/2] Building C object CMakeFiles/cmTC_e2aa5.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:495:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  495 | #define gcc_vmacro3(first, args...) fun3(first, args)
+      |                                ^~~
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:496:32: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+  496 | #define gcc_vmacro2(first, args...) fun2(first, args)
+      |                                ^~~
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:509:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  509 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_e2aa5
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_0937a && [1/2] Building C object CMakeFiles/cmTC_0937a.dir/SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_0937a
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_76782 && [1/2] Building C object CMakeFiles/cmTC_76782.dir/SIZEOF_CURL_OFF_T.c.o
+[2/2] Linking C executable cmTC_76782
+
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_04865 && [1/2] Building C object CMakeFiles/cmTC_04865.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:429:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  429 | void check(float f) {}
+      |      ^~~~~
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function ‘check’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:429:18: warning: unused parameter ‘f’ [-Wunused-parameter]
+  429 | void check(float f) {}
+      |            ~~~~~~^
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: At top level:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:432:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  432 | main () {
+      | ^~~~
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:435:9: warning: conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+  435 |   check(strerror_r(EACCES, buffer, sizeof(buffer)));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_04865
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_64583 && [1/2] Building C object CMakeFiles/cmTC_64583.dir/CurlTests.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/_deps/curl-src/CMake/CurlTests.c:458:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  458 | main() {
+      | ^~~~
+[2/2] Linking C executable cmTC_64583
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_cb94c && [1/2] Building C object CMakeFiles/cmTC_cb94c.dir/src.c.o
+[2/2] Linking C static library libcmTC_cb94c.a
+
+
+Source file was:
+#undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_4c8cd && [1/2] Building C object CMakeFiles/cmTC_4c8cd.dir/src.c.o
+[2/2] Linking C static library libcmTC_4c8cd.a
+
+
+Source file was:
+
+    #undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern ssize_t 
+    recv(int, void *, size_t, int);
+    int main(void) {
+      int s=0;
+      void * buf=0;
+      size_t len=0;
+      int flags=0;
+      ssize_t res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_74e7c && [1/2] Building C object CMakeFiles/cmTC_74e7c.dir/src.c.o
+[2/2] Linking C static library libcmTC_74e7c.a
+
+
+Source file was:
+#undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_2d535 && [1/2] Building C object CMakeFiles/cmTC_2d535.dir/src.c.o
+[2/2] Linking C static library libcmTC_2d535.a
+
+
+Source file was:
+
+    #undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern ssize_t 
+    send(int, const void *, size_t, int);
+    int main(void) {
+      int s=0;
+      const void * buf=0;
+      size_t len=0;
+      int flags=0;
+      ssize_t res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_ff5a4 && [1/2] Building C object CMakeFiles/cmTC_ff5a4.dir/src.c.o
+[2/2] Linking C static library libcmTC_ff5a4.a
+
+
+Source file was:
+#undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a86e7 && [1/2] Building C object CMakeFiles/cmTC_a86e7.dir/src.c.o
+[2/2] Linking C static library libcmTC_a86e7.a
+
+
+Source file was:
+#undef inline
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <time.h>
+#include <time.h>
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_a2aa1 && [1/2] Building C object CMakeFiles/cmTC_a2aa1.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.o
+[2/2] Linking C static library libcmTC_a2aa1.a
+
+
+
+Performing C SOURCE FILE Test HAVE_POLL_FINE succeeded with the following compile output:
+Change Dir: /home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/204/bin/ninja/linux/ninja cmTC_6411a && [1/2] Building C object CMakeFiles/cmTC_6411a.dir/src.c.o
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/iwaly/Skillbox-Homework/hw_30.2.1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:19:15: warning: variable ‘rc’ set but not used [-Wunused-but-set-variable]
+   19 |           int rc;
+      |               ^~
+[2/2] Linking C executable cmTC_6411a
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #include <stdlib.h>
+    #include <sys/time.h>
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #elif  HAVE_POLL_H
+    #  include <poll.h>
+    #endif
+
+    int main(void)
+    {
+        if(0 != poll(0, 0, 10)) {
+          return 1; /* fail */
+        }
+        else {
+          /* detect the 10.12 poll() breakage */
+          struct timeval before, after;
+          int rc;
+          size_t us;
+
+          gettimeofday(&before, NULL);
+          rc = poll(NULL, 0, 500);
+          gettimeofday(&after, NULL);
+
+          us = (after.tv_sec - before.tv_sec) * 1000000 +
+            (after.tv_usec - before.tv_usec);
+
+          if(us < 400000) {
+            return 1;
+          }
+        }
+        return 0;
+    }
