@@ -1,0 +1,21 @@
+# ninja log v5
+0	5	1663011821151159474	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	b806236460b839ed
+0	5	1663011821151159474	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	b806236460b839ed
+5	3129	1663011824275089355	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	47539eeb78353efe
+5	3129	1663011824275089355	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	47539eeb78353efe
+3129	3140	0	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	b61cad8b663d36af
+3129	3140	0	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	b61cad8b663d36af
+3140	3145	1663011824291088999	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	56768c81e21ce133
+3140	3145	1663011824291088999	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	56768c81e21ce133
+3145	3149	1663011824295088911	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	87a80e0b7e9e0d73
+3145	3149	1663011824295088911	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	87a80e0b7e9e0d73
+3149	3153	1663011824299088822	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	7113a6f6574a2f2b
+3149	3153	1663011824299088822	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	7113a6f6574a2f2b
+3153	3156	1663011824303088734	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	6ce43950230ee9f5
+3153	3156	1663011824303088734	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	6ce43950230ee9f5
+3156	3160	1663011824307088645	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	55b420e807118596
+3156	3160	1663011824307088645	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	55b420e807118596
+3160	3165	1663011824311088556	CMakeFiles/zlib-populate-complete	b4c0946849f6dedb
+3160	3165	1663011824311088556	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	b4c0946849f6dedb
+3160	3165	1663011824311088556	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	b4c0946849f6dedb
+3160	3165	1663011824311088556	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	b4c0946849f6dedb

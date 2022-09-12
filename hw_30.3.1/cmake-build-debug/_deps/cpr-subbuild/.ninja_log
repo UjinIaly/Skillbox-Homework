@@ -1,0 +1,21 @@
+# ninja log v5
+0	6	1663011817755237318	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	664d4a068d83c205
+0	6	1663011817755237318	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	664d4a068d83c205
+6	2510	1663011820259179760	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	369a3145045f440e
+6	2510	1663011820259179760	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	369a3145045f440e
+2510	2520	0	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	c325f23d8d7589d1
+2510	2520	0	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	c325f23d8d7589d1
+2520	2525	1663011820275179396	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	93d8c1f86f2329ae
+2520	2525	1663011820275179396	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	93d8c1f86f2329ae
+2525	2528	1663011820279179305	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	530d27e363bdb99b
+2525	2528	1663011820279179305	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	530d27e363bdb99b
+2528	2532	1663011820283179214	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	d8c510d13a0182d1
+2528	2532	1663011820283179214	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	d8c510d13a0182d1
+2532	2536	1663011820287179123	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	9dc074f3f0baca8
+2532	2536	1663011820287179123	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	9dc074f3f0baca8
+2536	2539	1663011820287179123	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	ff6df745eaf3c46f
+2536	2539	1663011820287179123	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	ff6df745eaf3c46f
+2539	2545	1663011820295178941	CMakeFiles/cpr-populate-complete	78a72934a017101e
+2539	2545	1663011820295178941	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	78a72934a017101e
+2539	2545	1663011820295178941	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	78a72934a017101e
+2539	2545	1663011820295178941	/home/iwaly/Skillbox-Homework/hw_30.3.1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	78a72934a017101e
