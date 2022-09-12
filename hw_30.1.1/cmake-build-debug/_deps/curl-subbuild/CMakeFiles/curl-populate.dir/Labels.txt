@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+/home/iwaly/Skillbox-Homework/hw_30.1.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule
