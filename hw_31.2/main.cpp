@@ -37,7 +37,6 @@ public:
         std::map<size_t,std::vector<size_t>>::iterator it = list.find(from-1);
         for(size_t i =0;i<it->second.size();++i){
             if(to == it->second[i]){
-                std::cout<<" already exist"<<it->first+1<<" -> "<<it->second[i]<<std::endl;
                 return;
             }
         }
@@ -81,7 +80,11 @@ public:
     }
 
     void show(){
+        std::cout<<"  ";
+        for(size_t i=0;i<vertices_count;++i){std::cout<<i<<" ";}
+        std::cout<<std::endl;
         for(size_t i = 0;i<vertices_count;++i){
+            std::cout<<i+1<<" ";
             for(size_t j = 0;j<vertices_count;++j){
                 std::cout<<matrix[i][j]<<" ";
             }
@@ -118,7 +121,74 @@ public:
 
 };
 
+void vec_clear(std::vector<size_t> &vec){
+    for(size_t i=0;i<vec.size();++i){
+        vec[i]=0;
+    }
+}
+
 int main() {
+    //initializing
+    adjacency_matrix matrix(3);
+    adjacency_list list(3);
+    std::vector<size_t> vertices(3);
+
+    //FOR LIST
+    //add edges in list
+    list.Add_edge(1,3);
+    list.Add_edge(2,3);
+    list.Add_edge(2,3);
+    list.Add_edge(3,1);
+    list.Add_edge(3,2);
+
+    //show list
+    list.show();
+    //getting previous vertices
+    list.get_prev_vertices(3,vertices);
+    for(size_t i=0;i<vertices.size();++i){
+        std::cout<<vertices[i]<<" ";
+    }
+    vec_clear(vertices);//clearing vector
+    //getting next vertices
+    list.get_next_vertices(2,vertices);
+
+    for(size_t i=0;i<vertices.size();++i){
+        std::cout<<vertices[i]<<" ";
+    }
+    vec_clear(vertices);//clearing vector
+    std::cout<<std::endl;
+    std::cout<<std::endl;
+
+    //FOR MATRIX
+    //add edges
+    matrix.Add_edge(1,3);
+    matrix.Add_edge(2,3);
+    matrix.Add_edge(2,3);
+    matrix.Add_edge(3,1);
+    matrix.Add_edge(3,2);
+
+    //show matrix
+    matrix.show();
+    std::cout<<std::endl;
+    //getting previous
+    matrix.get_prev_vertices(3,vertices);
+    for(size_t i=0;i<vertices.size();++i){
+        std::cout<<vertices[i]<<" ";
+    }
+    vec_clear(vertices);//clearing vector
+    std::cout<<std::endl;
+    matrix.get_next_vertices(2,vertices);
+
+    for(size_t i=0;i<vertices.size();++i){
+        std::cout<<vertices[i]<<" ";
+    }
+    std::cout<<std::endl;
+
+
+
+
+
+
 
 
 }
