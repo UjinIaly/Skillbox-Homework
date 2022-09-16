@@ -25,16 +25,21 @@ public:
         ++(*count);
     };
 
-    shared_ptr_toy(shared_ptr_toy &toy){
-        subject = new Toy(*toy.subject);
+    shared_ptr_toy(shared_ptr_toy &toy):count(toy.count),subject(toy.subject){
         ++(*count);
     };
 
     shared_ptr_toy& operator= (shared_ptr_toy &toy){
         if(&toy != this){
-            if(*count>0){
-                subject = toy.subject;
+            if(*count==1){
+                delete count;
+                delete subject;
             }
+            else{(*count)--;}
+            subject = toy.subject;
+            count = toy.count;
+            (*count)++;
+
         }
         return *this;
     }
