@@ -1,0 +1,9 @@
+/snap/clion/205/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/205/bin/ninja/linux/ninja -G Ninja -S /home/iwaly/Skillbox-Homework/hw_32.1 -B /home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug
+-- Using the multi-header code from /home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug/_deps/json-src/include/
+CMake Error at CMakeLists.txt:11 (target_link_libraries):
+  Cannot specify link libraries for target "hw_32_1" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".

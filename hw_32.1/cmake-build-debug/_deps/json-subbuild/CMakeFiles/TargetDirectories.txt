@@ -1,0 +1,3 @@
+/home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug/_deps/json-subbuild/CMakeFiles/json-populate.dir
+/home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug/_deps/json-subbuild/CMakeFiles/edit_cache.dir
+/home/iwaly/Skillbox-Homework/hw_32.1/cmake-build-debug/_deps/json-subbuild/CMakeFiles/rebuild_cache.dir
