@@ -1,0 +1,7 @@
+{
+  "Gifted":{"actors":{"Frank": "Chris Evans","Mary Adler": "Mckenna Grace"},"country":"USA","director":"Marc Webb","producer":"Karen Lunder","author":"Tom Flynn","studio":"FilmNation Entertainment","release_date":"07.04.2017"},
+  "Green Book":{"actors":{"Tony Lip" : "Viggo Mortensen", "Dr. Donald Shirley":"Mahershala Ali"},"country":"USA","director":"Peter Farrelly","producer":"Jim Burke","author":"Nick Vallelonga","studio":"Participant Media","release_date":"16.11.2018"},
+  "The Professor":{"actors":{"Richard Brown" : "Johnny Depp"},"country":"USA","director":"Wayne Roberts","producer":"Brian Kavanaugh-Jones","author":"Wayne Roberts","studio":"Saban Films","release_date":"17.05.2019"},
+  "Django Unchained":{"actors":{"Django":"Jamie Foxx", "Dr. King Schultz":"Christoph Waltz","Calvin Candie":"Leonardo DiCaprio"},"country":"USA","director":"Quentin Tarantino","producer":"Stacey Sher","author":"Quentin Tarantino","studio":"The Weinstein Company","release_date":"11.12.2012"},
+  "The Intouchables":{"actors":{"Driss":"Omar Sy", "Philippe":"François Cluzet"},"country":"France","director":"Éric Toledano","producer":"Nicolas Duval Adassovsky","author":"Olivier Nakache","studio":"Gaumont","release_date":"23.09.2011"}
+}
