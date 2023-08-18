@@ -1,0 +1,4 @@
+/home/ujin/Skillbox-Homework/34.1/cmake-build-debug/CMakeFiles/34_1.dir
+/home/ujin/Skillbox-Homework/34.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ujin/Skillbox-Homework/34.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ujin/Skillbox-Homework/34.1/cmake-build-debug/CMakeFiles/34_1_autogen.dir

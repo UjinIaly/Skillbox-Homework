@@ -1,3 +1,0 @@
-/home/ujin/Skillbox-Homework/33.1/cmake-build-debug/CMakeFiles/33_1.dir
-/home/ujin/Skillbox-Homework/33.1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ujin/Skillbox-Homework/33.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

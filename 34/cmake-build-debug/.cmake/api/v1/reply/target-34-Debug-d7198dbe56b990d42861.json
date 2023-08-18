@@ -1,0 +1,194 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "34"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"_populate_Widgets_target_properties",
+			"find_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "34::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "34",
+	"nameOnDisk" : "34",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
